@@ -1,0 +1,276 @@
+# Copyright (C) 2015 FactorFX, Linagora
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Translators:
+# Gilles Dubois <gilles.dubois@factorfx.com>, 2015.
+# Cédric Denis <cedric.denis@factorfx.com>, 2015.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: GLPI Project - Plugin Ola\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-09-30 17:04+0200\n"
+"PO-Revision-Date: 2015-09-30 17:04+0200\n"
+"Last-Translator: Cédric Denis <cedric.denis@factorfx.com>\n"
+"Language-Team: français <informatique@factorfx.com>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.4\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_n:1,2\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../inc/common.class.php:177 ../inc/common.class.php:195
+#: ../inc/config.class.php:131
+msgid "Hour"
+msgid_plural "Hours"
+msgstr[0] "Heure"
+msgstr[1] "Heures"
+
+#: ../inc/common.class.php:177 ../inc/common.class.php:195
+#: ../inc/config.class.php:130
+msgid "Minute"
+msgid_plural "Minutes"
+msgstr[0] "Minute"
+msgstr[1] "Minutes"
+
+#: ../inc/common.class.php:177 ../inc/common.class.php:195
+msgid "Seconds"
+msgstr "Secondes"
+
+#: ../inc/commonForm.class.php:73
+#, php-format
+msgid "Section n° %d"
+msgstr "Section n° %d"
+
+#: ../inc/commonForm.class.php:149
+msgid "Open ticket date"
+msgstr "Date d'ouverture du ticket"
+
+#: ../inc/commonForm.class.php:164
+msgid "Resolve ticket date"
+msgstr "Date de résolution du ticket"
+
+#: ../inc/commonForm.class.php:179
+msgid "Filters"
+msgstr "Filtres"
+
+#: ../inc/commonForm.class.php:182
+msgid "Ticket statut"
+msgstr "Statut du ticket"
+
+#: ../inc/commonForm.class.php:189
+msgid "SLA (name)"
+msgstr "SLA"
+
+#: ../inc/commonForm.class.php:196
+msgid "Ticket type"
+msgstr "Type de ticket"
+
+#: ../inc/commonForm.class.php:205 ../inc/config.class.php:109
+#: ../inc/ola.class.php:56 ../inc/ola.class.php:184 ../inc/ola.class.php:348
+#: ../inc/ola.class.php:407 ../inc/ola.class.php:496 ../inc/ola.class.php:572
+msgid "Support Center"
+msgstr "Centre de support"
+
+#: ../inc/commonForm.class.php:215
+msgid "Details / Group by exceeding percent"
+msgstr "Détail/Groupement par tranche de % de dépassement"
+
+#: ../inc/config.class.php:27 ../inc/ola.class.php:26
+msgid "OLA"
+msgid_plural "OLAs"
+msgstr[0] "OLA"
+msgstr[1] "OLAs"
+
+#: ../inc/config.class.php:90
+msgid "Maximum time to process"
+msgstr "Temps maximum de traitement"
+
+#: ../inc/config.class.php:132
+msgid "Day"
+msgid_plural "Days"
+msgstr[0] "Jour"
+msgstr[1] "Jours"
+
+#: ../inc/config.class.php:177
+msgid "Maximum processing time"
+msgstr "Temps maximum de traitement"
+
+#: ../inc/config.class.php:243
+#, php-format
+msgid "Error in creating %s table"
+msgstr "Une erreur est apparue lors de la création de la table %s"
+
+#: ../inc/ola.class.php:50
+msgid "Details per OLA"
+msgstr "Détails par OLA"
+
+#: ../inc/ola.class.php:51 ../inc/ola.class.php:180 ../inc/ola.class.php:343
+#: ../inc/ola.class.php:402 ../inc/ola.class.php:492 ../inc/ola.class.php:568
+#: ../inc/sla.class.php:69 ../inc/sla.class.php:251 ../inc/sla.class.php:301
+#: ../inc/sla.class.php:387 ../inc/sla.class.php:440 ../inc/sla.class.php:508
+msgid "CSV Export"
+msgstr "Export CSV"
+
+#: ../inc/ola.class.php:57 ../inc/ola.class.php:185 ../inc/ola.class.php:408
+#: ../inc/ola.class.php:497 ../inc/ola.class.php:573 ../inc/sla.class.php:26
+#: ../inc/sla.class.php:74 ../inc/sla.class.php:306 ../inc/sla.class.php:391
+#: ../inc/sla.class.php:444 ../inc/sla.class.php:512
+msgid "SLA"
+msgid_plural "SLAs"
+msgstr[0] "SLA"
+msgstr[1] "SLAs"
+
+#: ../inc/ola.class.php:58 ../inc/ola.class.php:349 ../inc/ola.class.php:409
+msgid "Intervention Nb"
+msgstr "Nombre d'intervention"
+
+#: ../inc/ola.class.php:59 ../inc/ola.class.php:350 ../inc/ola.class.php:410
+msgid "% Intervention"
+msgstr "% Intervention"
+
+#: ../inc/ola.class.php:60
+msgid "Max time Ola"
+msgstr "Temps max OLA"
+
+#: ../inc/ola.class.php:179
+msgid "List of dynamic intervention for "
+msgstr "Liste dynamique des interventions pour"
+
+#: ../inc/ola.class.php:179
+msgid " and "
+msgstr "et"
+
+#: ../inc/ola.class.php:181 ../inc/ola.class.php:493 ../inc/ola.class.php:569
+#: ../inc/sla.class.php:388 ../inc/sla.class.php:441 ../inc/sla.class.php:509
+msgid "[X] Close"
+msgstr "[X] Fermer"
+
+#: ../inc/ola.class.php:186 ../inc/ola.class.php:498 ../inc/ola.class.php:574
+msgid "Problems ID"
+msgstr "ID du problème"
+
+#: ../inc/ola.class.php:187 ../inc/ola.class.php:499 ../inc/ola.class.php:575
+#: ../inc/sla.class.php:392 ../inc/sla.class.php:445 ../inc/sla.class.php:513
+msgid "Ticket ID"
+msgstr "ID du Ticket"
+
+#: ../inc/ola.class.php:188 ../inc/ola.class.php:500 ../inc/ola.class.php:576
+#: ../inc/sla.class.php:393 ../inc/sla.class.php:446 ../inc/sla.class.php:514
+msgid "Title"
+msgstr "Titre"
+
+#: ../inc/ola.class.php:189 ../inc/ola.class.php:501 ../inc/ola.class.php:577
+msgid "Status"
+msgstr "Statut"
+
+#: ../inc/ola.class.php:190 ../inc/ola.class.php:502 ../inc/ola.class.php:578
+#: ../inc/sla.class.php:395 ../inc/sla.class.php:448 ../inc/sla.class.php:516
+msgid "Resolve Time"
+msgstr "Temps de résoltion"
+
+#: ../inc/ola.class.php:191 ../inc/ola.class.php:351 ../inc/ola.class.php:411
+#: ../inc/ola.class.php:503 ../inc/ola.class.php:579
+msgid "Exceeding percent"
+msgstr "Pourcentage de depassement"
+
+#: ../inc/ola.class.php:342
+msgid "Details per support center and exceeding percent"
+msgstr "Détails par centre de support et par pourcentage de dépassement"
+
+#: ../inc/ola.class.php:401
+msgid "Details per OLA and exceeding percent"
+msgstr "Détails par OLA et par pourcentage de dépassement"
+
+#: ../inc/ola.class.php:491
+msgid "Intervention list per group, sla and exceeding percent"
+msgstr "Liste des intervention par groupes , par SLA ainsi que pourcentage de dépassement"
+
+#: ../inc/ola.class.php:567
+msgid "Intervention list per group and exceeding percent"
+msgstr "Liste des interventions par groups et par pourcentage de dépassement"
+
+#: ../inc/profile.class.php:122 ../setup.php:53
+msgid "OLAs"
+msgstr "OLAs"
+
+#: ../inc/profile.class.php:128
+msgid "SLAs"
+msgstr "SLAs"
+
+#: ../inc/sla.class.php:68
+msgid "Details per SLA"
+msgstr "Détails par Sla"
+
+#: ../inc/sla.class.php:75 ../inc/sla.class.php:256 ../inc/sla.class.php:307
+msgid "Tickets Number"
+msgstr "Nombre de tickets"
+
+#: ../inc/sla.class.php:76 ../inc/sla.class.php:257 ../inc/sla.class.php:308
+msgid "% Tickets"
+msgstr "% Tickets"
+
+#: ../inc/sla.class.php:77
+msgid "SLA Max resolution time"
+msgstr "SLA Temps maximum de résolution"
+
+#: ../inc/sla.class.php:250
+msgid "Details per exceeding percent"
+msgstr "Détails par tranche de % de dépassement"
+
+#: ../inc/sla.class.php:258 ../inc/sla.class.php:309
+msgid "Average resolve time"
+msgstr "Temps moyen de résolution"
+
+#: ../inc/sla.class.php:259 ../inc/sla.class.php:310 ../inc/sla.class.php:396
+#: ../inc/sla.class.php:449 ../inc/sla.class.php:517
+msgid "Exceeding Percent"
+msgstr "Pourcentage de dépassement"
+
+#: ../inc/sla.class.php:300
+msgid "Details per SLA and exceeding percent"
+msgstr "Détail par SLA et tranche de % de dépassement"
+
+#: ../inc/sla.class.php:386 ../inc/sla.class.php:439
+msgid "Dynamic tickets list for this exceeding percent range : "
+msgstr "Liste dynamique des tickets avec un pourcentage de dépassement allant de : "
+
+#: ../inc/sla.class.php:394 ../inc/sla.class.php:447 ../inc/sla.class.php:515
+msgid "Statut"
+msgstr "Statut"
+
+#: ../inc/sla.class.php:439
+msgid " in sla : "
+msgstr " dans la sla : "
+
+#: ../inc/sla.class.php:507
+msgid "Dynamic tickets list in sla : "
+msgstr "Liste dynamique des tickets dans la sla : "
+
+#: ../setup.php:29
+msgid "SLAs report"
+msgstr "Rapport SLAs"
+
+#: ../setup.php:35
+msgid "OLAs report"
+msgstr "Rapport OLAs"
+
+#, fuzzy
+#~ msgid "Slas"
+#~ msgstr "SLAs"
+
+#~ msgid "Report"
+#~ msgstr "Rapport"
+
+#, fuzzy
+#~ msgid "%s purges an item"
+#~ msgstr "Une erreur est apparue lors de la création de la base %s"
+
+#, fuzzy
+#~ msgid "%s updates an item"
+#~ msgstr "Une erreur est apparue lors de la création de la base %s"
